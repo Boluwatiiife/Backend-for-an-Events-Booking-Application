@@ -1,0 +1,29 @@
+DataBase Setup
+--------------
+
+DataBase : event-booking
+Tables: user, event
+user Table : id, name, email, password, avatar, isAdmin, createdAt, updateAt
+event Table : id, name, image, price, date, info, type, createdAt, updateAt
+
+Server Side Modules
+-------------------
+express
+cors
+dotenv
+gravatar
+bcryptjs
+jsonwebtoken
+express-validator
+mongoose
+
+@types/express
+@types/cors
+@types/dotenv
+@types/gravatar
+@types/bcryptjs
+@types/jsonwebtoken
+@types/express-validator
+@types/mongoose
+
+npm install express cors dotenv gravatar bcryptjs jsonwebtoken express-validator mongoose
